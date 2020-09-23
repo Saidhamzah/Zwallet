@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer</title>
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+    <nav class="bg-white py-4">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h4 class="text-primary m-0">
+                    ZWallet
+                </h4>
+                <div class="d-flex align-items-center">
+                    <img src="Assets/Img/profilImg.svg" alt="">
+
+                    <div class="mx-3">
+                        <div class="font-weight-bold">Robert Chandler</div>
+                        <div class="small">+629130 3877  7946 </div>
+                    </div>
+                    <a href="#">
+                        <img src="assets/Img/bell.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-lg-3 pr-lg-2">
+                <div class="bg-white navigation d-flex flex-column justify-content-between rounded-14 p-4">
+                    <ul class="m-0 pl-4">
+                        <li class="d-flex align-items-center py-4">
+                            <img src="assets/Img/dashboard-black.svg" alt="">
+                            <a href="home1.html" class=" ml-3">Dashboard</a>
+                        </li>
+                        <li class="d-flex align-items-center py-4 active">
+                            <img src="assets/Img/arrow-up-active.svg" alt="">
+                            <a href="#" class=" ml-3">Transfer</a>
+                        </li>
+                        <li class="d-flex align-items-center py-4">
+                            <img src="assets/Img/plus.svg" alt="">
+                            <a href="#" class=" ml-3">Top Up</a>
+                        </li>
+                        <li class="d-flex align-items-center py-4">
+                            <img src="assets/Img/user.svg" alt="">
+                            <a href="#" class=" ml-3">Profile</a>
+                        </li>
+
+                    </ul>
+                    <ul class="m-0 pl-4">
+                        <li class="d-flex align-items-center py-2">
+                            <img src="assets/Img/log-out.svg" alt="">
+                            <a href="#" class=" ml-3">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-9 pl-lg-2 mt-2 mt-lg-0">
+                <div class="d-flex justify-content-between1 ">
+                    
+                    <div class="col-lg-12">
+                        <div class="bg-white p-4 rounded-14">
+                           <div>
+                               <div class="pb-5">
+                                   <div class="font-weight-bold">Transfer To</div>
+                                   
+                                </div>
+                               <div class="d-flex justify-content-between align-items-center py-3 px-3 bg-white rounded-14 border_line font_nunito">
+                                   <div class="d-flex">
+                                       <img height="56px" width="56px" src="assets/Img/samuel-suhi.svg" alt="">
+                                       
+                                       <div class="ml-2">
+                                           <div class="font-weight-bold">Samuel Suhi</div>
+                                           <div class="small mt-2">+62 813-8492-9994</div>
+                                       </div>
+                                   </div>
+                                </div> 
+                            </div>
+                           <div>
+                               <div class="pb-3 pt-3">
+                                   <div class="font-weight-bold">Details</div>
+                                   
+                                </div>
+                               <div class="d-flex justify-content-between align-items-center py-2 px-2 bg-white rounded-14 border_line font_nunito">
+                                   <div class="d-flex">
+                                       <div class="ml-2">
+                                           <div class="small mt-2">Amount</div>
+                                           <div class="font-weight-bold">Rp100.000</div>
+                                       </div>
+                                   </div>
+                                </div> 
+                               <div class="d-flex justify-content-between align-items-center py-2 px-2 bg-white rounded-14 border_line font_nunito">
+                                   <div class="d-flex">
+                                       <div class="ml-2">
+                                           <div class="small mt-2">Balance Left</div>
+                                           <div class="font-weight-bold">Rp20.000</div>
+                                       </div>
+                                   </div>
+                                </div> 
+                               <div class="d-flex justify-content-between align-items-center py-2 px-2 bg-white rounded-14 border_line font_nunito">
+                                   <div class="d-flex">
+                                       <div class="ml-2">
+                                           <div class="small mt-2">Date & Time</div>
+                                           <div class="font-weight-bold">Rp20.000</div>
+                                       </div>
+                                   </div>
+                                </div> 
+                               <div class="d-flex justify-content-between align-items-center py-2 px-2 bg-white rounded-14 border_line font_nunito">
+                                   <div class="d-flex">
+                                       <div class="ml-2">
+                                           <div class="small mt-2">Notes</div>
+                                           <div class="font-weight-bold">For buying some socks</div>
+                                       </div>
+                                   </div>
+                                </div> 
+                               <div class="d-flex justify-content-end align-items-center py-2 px-2 bg-white rounded-14 border_line font_nunito">
+                                   <div class="d-flex">
+                                       <div class="ml-2">
+                                           <button id="btnConfirmation" class="btn bg_purple py-2 px-4 rounded-10">
+                                               <div class="small text-white font_nunito">
+                                                   Continue
+                                               </div>
+                                           </button>
+                                        <!-- <a id="btnConfirmation" class="btn bg_purple py-2 px-4 rounded-10" href="">
+                                        </a> -->
+                                       </div>
+                                   </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Modal -->
+<div id="myModal" class="modal">
+    
+    <div class="modal-content">
+        <div class="container px-3 py-3">
+            <span class="close">&times;</span>
+            <div class="font-weight-bold"> Enter PIN to Transfer</div>
+  
+            <div class="d-flex ">
+                <div class="row pt-4">
+                    <div class="col-9 font_16 color_grey">
+                        Enter your 6 digits PIN for confirmation to continue transfering money.
+                    </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center align-content-center mt-5 pt-4">
+                  <div class="row">
+                      <div class="col-12">
+                          <div class="row">
+                              <div class="col-2">
+                                  <input class="input_pin rounded-10 border px-1 py-1 text-center" type="text" maxlength="1" oninput="digitPin(this)">
+                              </div>
+                              <div class="col-2">
+                                  <input class="input_pin rounded-10 border px-1 py-1 text-center" type="text" maxlength="1" oninput="digitPin(this)">
+                              </div>
+                              <div class="col-2">
+                                  <input class="input_pin rounded-10 border px-1 py-1 text-center" type="text" maxlength="1" oninput="digitPin(this)">
+                              </div>
+                              <div class="col-2">
+                                  <input class="input_pin rounded-10 border px-1 py-1 text-center" type="text" maxlength="1" oninput="digitPin(this)">
+                              </div>
+                              <div class="col-2">
+                                  <input class="input_pin rounded-10 border px-1 py-1 text-center" type="text" maxlength="1" oninput="digitPin(this)">
+                              </div>
+                              <div class="col-2">
+                                  <input class="input_pin rounded-10 border px-1 py-1 text-center" type="text" maxlength="1" oninput="digitPin(this)">
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="d-flex justify-content-end align-items-center pt-5 py-2 px-2 bg-white">
+              <div class="d-flex">
+                  <div class="ml-2">
+                   <a class="btn bg_purple py-3 px-5 rounded-10" href="success.html">
+                       <div class="small text-white font_nunito">
+                           Continue
+                       </div>
+                   </a>
+                  </div>
+              </div>
+           </div> 
+    </div>
+  
+  </div>
+  <!-- End Modal  -->
+
+    <footer class="page-footer font-small footer_bg py-4 m-0">
+
+      <!-- Copyright -->
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="small color_grey">© 2020 Zwallet. All right reserved</div>
+        <div class="d-flex ">
+          <div class="small color_grey">
+            +62 5637 8882 9901
+          </div>
+          <div class="small  color_grey mx-3">
+            contact@zwallet.com
+          </div>
+        </div>
+      
+      </div>
+    </div>
+        
+      <!-- Copyright -->
+    
+    </footer>
+    <!-- Footer -->
+    <script>
+          function digitPin(e){
+        const isNumber=e.value.match(/[0-9]/i)
+        if(!isNumber){
+            e.value=""
+        }
+        console.log(isNumber)
+    }
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("btnConfirmation");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+    </script>
+    <script src="assets/js/jquery-slim.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css"></script>
+  </body>
+</html>

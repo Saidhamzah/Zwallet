@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+    <nav class="bg-white py-4">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h4 class="text-primary m-0">
+                    ZWallet
+                </h4>
+                <div class="d-flex align-items-center">
+                    <img src="Assets/Img/profilImg.svg" alt="">
+
+                    <div class="mx-3">
+                        <div class="font-weight-bold">Robert Chandler</div>
+                        <div class="small">+629130 3877  7946 </div>
+                    </div>
+                    <a href="#">
+                        <img src="assets/Img/bell.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-lg-3 pr-lg-2">
+                <div class="bg-white navigation d-flex flex-column justify-content-between rounded-14 p-4">
+                    <ul class="m-0 pl-4">
+                        <li class="d-flex align-items-center py-4 active">
+                            <img src="assets/Img/Dashboard.svg" alt="">
+                            <a href="#" class=" ml-3">Dashboard</a>
+                        </li>
+                        <li class="d-flex align-items-center py-4">
+                            <img src="assets/Img/arrow-up.svg" alt="">
+                            <a href="#" class=" ml-3">Transfer</a>
+                        </li>
+                        <li class="d-flex align-items-center py-4">
+                            <img src="assets/Img/plus.svg" alt="">
+                            <a href="#" class=" ml-3">Top Up</a>
+                        </li>
+                        <li class="d-flex align-items-center py-4">
+                            <img src="assets/Img/user.svg" alt="">
+                            <a href="#" class=" ml-3">Profile</a>
+                        </li>
+
+                    </ul>
+                    <ul class="m-0 pl-4">
+                        <li class="d-flex align-items-center py-2">
+                            <img src="assets/Img/log-out.svg" alt="">
+                            <a href="#" class=" ml-3">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-9 pl-lg-2 mt-2 mt-lg-0">
+                <div class="zwallet_color rounded-14 p-4">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <div class="color_grey font_nunito">Balance</div>
+                            <h1 class="text-white my-3 font_nunito">Rp120.000</h1>
+                            <div class="color_grey font_nunito">+89 4523 1234</div>
+                        </div>
+
+                        <div>
+                            <a href="#" class="btn bg-outline-white text-white font-weight-bold py-3 d-block mb-3 rounded-14 btn_balance ">
+                                <img src="assets/Img/arrow-up-white.svg" alt="">Transfer
+                            </a>
+                            <a href="#" class="btn bg-outline-white text-white font-weight-bold py-3 d-block mt-3 rounded-14 btn_balance">
+                                <img src="assets/Img/plus-white.svg" alt="">Top Up
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-7">
+                        <div class="bg-white rounded-14 p-4">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="assets/Img/arrow-down-green.svg" alt="">
+                                    <div class="small my-2">Income</div>
+                                    <div class="font-weight-bold"> Rp2.120.000</div>
+                                </div>
+                                <div class="col-6">
+                                    <img src="assets/Img/arrow-up-red.svg" alt="">
+                                    <div class="small my-2">Expense</div>
+                                    <div class="font-weight-bold"> Rp1.560.000</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="py-2 px-3 text-success shadow-sm font-weight-bold rounded-14">
+                                            Rp50.000
+                                        </div>
+                                    </div>
+                                    <canvas id="canvas"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="bg-white rounded-14 p-4">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="font-weight-bold">Transaction History</div>
+                                <a href="Search-Receiver1.html" class="small text-primary">See All</a>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center py-3">
+                                <div class="d-flex">
+                                    <img height="56px" width="56px" src="assets/Img/samuel-suhi.svg" alt="">
+                                    
+                                    <div class="ml-2">
+                                        <div class="font-weight-bold">Samuel Suhi</div>
+                                        <div class="small mt-2">Transfer</div>
+                                    </div>
+                                </div>
+
+                                <div class="text-success font-weight-bold">+Rp50.000</div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center py-3">
+                                <div class="d-flex">
+                                    <img height="56px" width="56px" src="assets/Img/Netflix.svg" alt="">
+                                    
+                                    <div class="ml-2">
+                                        <div class="font-weight-bold">Netflix</div>
+                                        <div class="small mt-2">Subcription</div>
+                                    </div>
+                                </div>
+
+                                <div class="text-danger font-weight-bold">-Rp149.000</div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center py-3">
+                                <div class="d-flex">
+                                    <img height="56px" width="56px" src="assets/Img/Christine-Mar....svg" alt="">
+                                    
+                                    <div class="ml-2">
+                                        <div class="font-weight-bold">Christine Mar...</div>
+                                        <div class="small mt-2">Transfer</div>
+                                    </div>
+                                </div>
+
+                                <div class="text-success font-weight-bold">+Rp150.000</div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center py-3">
+                                <div class="d-flex">
+                                    <img height="56px" width="56px" src="assets/Img/Adobe.svg" alt="">
+                                    
+                                    <div class="ml-2">
+                                        <div class="font-weight-bold">Adobe Inc.</div>
+                                        <div class="small mt-2">Transfer</div>
+                                    </div>
+                                </div>
+
+                                <div class="text-danger font-weight-bold">-Rp249.000</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer font-small footer_bg py-4">
+
+      <!-- Copyright -->
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="small color_grey">© 2020 Zwallet. All right reserved</div>
+        <div class="d-flex ">
+          <div class="small color_grey">
+            +62 5637 8882 9901
+          </div>
+          <div class="small  color_grey mx-3">
+            contact@zwallet.com
+          </div>
+        </div>
+      
+      </div>
+    </div>
+        
+      <!-- Copyright -->
+    
+    </footer>
+    <!-- Footer -->
+    <script src="assets/js/jquery-slim.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css"></script>
+    <script>
+        Chart.elements.Rectangle.prototype.draw = function () {
+        var ctx = this._chart.ctx;
+        var vm = this._view;
+        var left, right, top, bottom, signX, signY, borderSkipped, radius;
+        var borderWidth = vm.borderWidth;
+        // Set Radius Here
+        // If radius is large enough to cause drawing errors a max radius is imposed
+        var cornerRadius = 20;
+ 
+        if (!vm.horizontal) {
+          // bar
+          left = vm.x - vm.width / 2;
+          right = vm.x + vm.width / 2;
+          top = vm.y;
+          bottom = vm.base;
+          signX = 1;
+          signY = bottom > top ? 1 : -1;
+          borderSkipped = vm.borderSkipped || "bottom";
+        } else {
+          // horizontal bar
+          left = vm.base;
+          right = vm.x;
+          top = vm.y - vm.height / 2;
+          bottom = vm.y + vm.height / 2;
+          signX = right > left ? 1 : -1;
+          signY = 1;
+          borderSkipped = vm.borderSkipped || "left";
+        }
+ 
+        // Canvas doesn't allow us to stroke inside the width so we can
+        // adjust the sizes to fit if we're setting a stroke on the line
+        if (borderWidth) {
+          // borderWidth shold be less than bar width and bar height.
+          var barSize = Math.min(
+            Math.abs(left - right),
+            Math.abs(top - bottom)
+          );
+          borderWidth = borderWidth > barSize ? barSize : borderWidth;
+          var halfStroke = borderWidth / 2;
+          // Adjust borderWidth when bar top position is near vm.base(zero).
+          var borderLeft =
+            left + (borderSkipped !== "left" ? halfStroke * signX : 0);
+          var borderRight =
+            right + (borderSkipped !== "right" ? -halfStroke * signX : 0);
+          var borderTop =
+            top + (borderSkipped !== "top" ? halfStroke * signY : 0);
+          var borderBottom =
+            bottom + (borderSkipped !== "bottom" ? -halfStroke * signY : 0);
+          // not become a vertical line?
+          if (borderLeft !== borderRight) {
+            top = borderTop;
+            bottom = borderBottom;
+          }
+          // not become a horizontal line?
+          if (borderTop !== borderBottom) {
+            left = borderLeft;
+            right = borderRight;
+          }
+        }
+ 
+        ctx.beginPath();
+        ctx.fillStyle = vm.backgroundColor;
+        ctx.strokeStyle = vm.borderColor;
+        ctx.lineWidth = borderWidth;
+ 
+        // Corner points, from bottom-left to bottom-right clockwise
+        // | 1 2 |
+        // | 0 3 |
+        var corners = [
+          [left, bottom],
+          [left, top],
+          [right, top],
+          [right, bottom],
+        ];
+ 
+        // Find first (starting) corner with fallback to 'bottom'
+        var borders = ["bottom", "left", "top", "right"];
+        var startCorner = borders.indexOf(borderSkipped, 0);
+        if (startCorner === -1) {
+          startCorner = 0;
+        }
+ 
+        function cornerAt(index) {
+          return corners[(startCorner + index) % 4];
+        }
+ 
+        // Draw rectangle from 'startCorner'
+        var corner = cornerAt(0);
+        ctx.moveTo(corner[0], corner[1]);
+ 
+        for (var i = 1; i < 4; i++) {
+          corner = cornerAt(i);
+          nextCornerId = i + 1;
+          if (nextCornerId == 4) {
+            nextCornerId = 0;
+          }
+ 
+          nextCorner = cornerAt(nextCornerId);
+ 
+          width = corners[2][0] - corners[1][0];
+          height = corners[0][1] - corners[1][1];
+          x = corners[1][0];
+          y = corners[1][1];
+ 
+          var radius = cornerRadius;
+ 
+          // Fix radius being too large
+          if (radius > height / 2) {
+            radius = height / 2;
+          }
+          if (radius > width / 2) {
+            radius = width / 2;
+          }
+ 
+          ctx.moveTo(x + radius, y);
+          ctx.lineTo(x + width - radius, y);
+          ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+          ctx.lineTo(x + width, y + height - radius);
+          ctx.quadraticCurveTo(
+            x + width,
+            y + height,
+            x + width - radius,
+            y + height
+          );
+          ctx.lineTo(x + radius, y + height);
+          ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+          ctx.lineTo(x, y + radius);
+          ctx.quadraticCurveTo(x, y, x + radius, y);
+        }
+ 
+        ctx.fill();
+        if (borderWidth) {
+          ctx.stroke();
+        }
+      };
+ 
+      const color = Chart.helpers.color;
+      const barChartData = {
+        labels: ["Sat", "Sun", "Mon", "Tue", "Wen", "Thu", "Fri"],
+        datasets: [
+          {
+            label: "Dataset 1",
+            backgroundColor: "#6379F4",
+            borderColor: "#fff",
+            data: [9, 3, 5, 7, 4, 8, 6],
+          },
+        ],
+      };
+ 
+      window.onload = function () {
+        const ctx = document.getElementById("canvas").getContext("2d");
+        window.myBar = new Chart(ctx, {
+          type: "bar",
+          data: barChartData,
+          options: {
+            legend: {
+              display: false,
+            },
+            responsive: true,
+            scales: {
+              xAxes: [
+                {
+                  maxBarThickness: 20,
+                  gridLines: {
+                    lineWidth: 0,
+                    display: false,
+                  },
+                },
+              ],
+              yAxes: [
+                {
+                  ticks: {
+                    display: false,
+                    min: 0,
+                  },
+                  gridLines: {
+                    lineWidth: 0,
+                    display: false,
+                  },
+                },
+              ],
+            },
+          },
+        });
+      };
+    </script>
+</body>
+</html>
