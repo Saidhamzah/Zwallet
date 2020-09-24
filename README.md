@@ -2,14 +2,14 @@
 
 Zwallet is a e-Wallet App that developed by using HTML, CSS and Js. Zwallet's still under development progress. there are such features and components even pages not work properly.
 
-# Tools
+## Tools
 
 * HTML
 * CSS
 * Js
 * Bootstrap
 
-# Page
+## Page
 
 pages hass been done: 
 
@@ -21,6 +21,6 @@ pages hass been done:
 * Success
 
 
-# Deploy on Netlify
+## Deploy on Netlify
 Zwallet has been deployed on Netlify. 
 [link ](https://zwallet-saidhamzah.netlify.app/home1.html "Zwallet's Home")
