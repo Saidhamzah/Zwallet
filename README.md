@@ -11,7 +11,7 @@ Zwallet is an e-Wallet App that developed by using HTML, CSS and Js. Zwallet's s
 
 ## Page
 
-pages hass been done: 
+pages has been done: 
 
 * Confirmation
 * Failed
